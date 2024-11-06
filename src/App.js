@@ -68,7 +68,7 @@ function App() {
         <Box textAlign="center" my={4}>
           <Stack spacing={2} direction="row">
             <Button variant="contained" onClick={() => setShowCart(prev => !prev)}>Go To Cart</Button>
-            <Button variant="outlined" onClick={() => setCart([])}>Clear Cart</Button>
+            <Button variant="outlined" onClick={() => setCart([])}>Clear Cart1</Button>
           </Stack>
         </Box>
       }
